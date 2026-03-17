@@ -48,7 +48,7 @@ export default defineConfig({
       },
 
       components: {
-        Head: '@/components/analytics.astro',
+        Head: '@/components/analiticas.astro',
       },
     }),
   ],
