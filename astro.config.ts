@@ -30,8 +30,12 @@ export default defineConfig({
       sidebar: [
         {
           label: "introducción",
-          items: [{ label: "sobre mi", link: "/sobre-mi/" }],
+          items: [{ label: "sobre mi", link: "/intro/sobre-mi/" }],
         },
+        { 
+          label: "tierra",
+          items: [{ label: "origen", link: "/tierra/origen/" }],
+        }
       ],
       customCss: ["@/styles/global.css"],
       logo: {
