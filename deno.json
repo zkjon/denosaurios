@@ -1,6 +1,20 @@
 {
+  "nodeModulesDir": "auto",
   "allowScripts": {
     "deny": [],
     "allow": ["npm:esbuild@0.27.4", "npm:sharp@0.34.2"]
+  },
+  "imports": {
+    "fs": "node:fs",
+    "fs/promises": "node:fs/promises",
+    "path": "node:path",
+    "util": "node:util",
+    "url": "node:url",
+    "stream": "node:stream",
+    "crypto": "node:crypto",
+    "os": "node:os",
+    "events": "node:events",
+    "assert": "node:assert",
+    "child_process": "node:child_process"
   }
 }
