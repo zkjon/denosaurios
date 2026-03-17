@@ -1,9 +1,15 @@
 ---
+import dinosaur from "@/assets/denos/dinosaur.svg";
 import diplodocus from "@/assets/denos/diplodocus.svg";
+import triceratops from "@/assets/denos/triceratops.svg";
 ---
 
 <div class="landing">
-  <img src={diplodocus.src} alt="diplodocus" width={180} height={180} />
+  <div class="landing-denos" aria-label="dinosaurios decorativos">
+    <img src={dinosaur.src} alt="dino" width={180} height={180} />
+    <img src={diplodocus.src} alt="diplo" width={180} height={180} />
+    <img src={triceratops.src} alt="trice" width={180} height={180} />
+  </div>
   <h2 class="landing-description">
     un pequeño proyecto nacido de mi fascinación por los dinosaurios y la
     historia de la tierra.
@@ -21,6 +27,14 @@ import diplodocus from "@/assets/denos/diplodocus.svg";
     gap: clamp(1.5rem, 4vh, 3rem);
     text-align: center;
     padding: 2rem;
+    width: 100%;
+  }
+
+  .landing-denos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: clamp(0.75rem, 4vw, 2rem);
     width: 100%;
   }
 
