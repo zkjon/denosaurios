@@ -42,6 +42,7 @@ export default defineConfig({
             { label: "origen", link: "/tierra/origen/" },
             { label: "formación", link: "/tierra/formacion/" },
             { label: "primeros océanos", link: "/tierra/primeros-oceanos/" },
+            { label: "primeras moléculas", link: "/tierra/primeras-moleculas/" },
           ],
         }
       ],
