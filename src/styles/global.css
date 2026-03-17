@@ -33,3 +33,7 @@
   --color-gray-900: var(--color-stone-900);
   --color-gray-950: var(--color-stone-950);
 }
+
+html {
+  scroll-behavior: smooth;
+}
