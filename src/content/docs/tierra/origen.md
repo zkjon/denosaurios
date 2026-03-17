@@ -71,7 +71,7 @@ era un lugar completamente hostil:
    ![gran impacto](../../../assets/tierra/origen/gran-impacto.avif)
 
   <p class="mt-2 text-sm text-black/60 dark:text-white/60 italic">
-    > representación generada por IA del gran impacto
+    > representación generada por ia del gran impacto
   </p>
 </div>
 
