@@ -46,6 +46,10 @@ export default defineConfig({
         dark: "@/assets/icons/dark.svg",
         replacesTitle: true,
       },
+
+      components: {
+        Head: '@/components/analytics.astro',
+      },
     }),
   ],
   vite: {
