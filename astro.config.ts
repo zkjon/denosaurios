@@ -2,6 +2,7 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import tailwindcss from "@tailwindcss/vite";
+import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
@@ -46,10 +47,6 @@ export default defineConfig({
         dark: "@/assets/icons/dark.svg",
         replacesTitle: true,
       },
-
-      components: {
-        Head: '@/components/analiticas.astro',
-      },
     }),
   ],
   vite: {
@@ -58,4 +55,9 @@ export default defineConfig({
   devToolbar: {
     enabled: false,
   },
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
 });
