@@ -3,8 +3,9 @@
   "specifiers": {
     "npm:@astrojs/starlight-tailwind@5.0.0": "5.0.0_@astrojs+starlight@0.38.1__astro@6.0.1___@vercel+functions@3.4.3_tailwindcss@4.2.1_astro@6.0.1__@vercel+functions@3.4.3",
     "npm:@astrojs/starlight@0.38.1": "0.38.1_astro@6.0.1__@vercel+functions@3.4.3",
-    "npm:@astrojs/vercel@^10.0.1": "10.0.1_astro@6.0.1__@vercel+functions@3.4.3",
+    "npm:@astrojs/vercel@10.0.1": "10.0.1_astro@6.0.1__@vercel+functions@3.4.3",
     "npm:@tailwindcss/vite@4.2.1": "4.2.1_vite@7.3.1",
+    "npm:@vercel/analytics@^2.0.1": "2.0.1",
     "npm:astro@6.0.1": "6.0.1_@vercel+functions@3.4.3",
     "npm:sharp@0.34.2": "0.34.2",
     "npm:tailwindcss@4.2.1": "4.2.1"
@@ -134,7 +135,7 @@
       "integrity": "sha512-Ghl8L2ckDuNbfHbYYTRymUn87YrNTWD64Zz0zwYaGlZDkrG2nT3pmAU5BqzfOOV4Yvzgqxea+HEiEn6puefQZQ==",
       "dependencies": [
         "@astrojs/internal-helpers",
-        "@vercel/analytics",
+        "@vercel/analytics@1.6.1",
         "@vercel/functions",
         "@vercel/nft",
         "@vercel/routing-utils",
@@ -997,6 +998,9 @@
     },
     "@vercel/analytics@1.6.1": {
       "integrity": "sha512-oH9He/bEM+6oKlv3chWuOOcp8Y6fo6/PSro8hEkgCW3pu9/OiCXiUpRUogDh3Fs3LH2sosDrx8CxeOLBEE+afg=="
+    },
+    "@vercel/analytics@2.0.1": {
+      "integrity": "sha512-MTQG6V9qQrt1tsDeF+2Uoo5aPjqbVPys1xvnIftXSJYG2SrwXRHnqEvVoYID7BTruDz4lCd2Z7rM1BdkUehk2g=="
     },
     "@vercel/functions@3.4.3": {
       "integrity": "sha512-kA14KIUVgAY6VXbhZ5jjY+s0883cV3cZqIU3WhrSRxuJ9KvxatMjtmzl0K23HK59oOUjYl7HaE/eYMmhmqpZzw==",
@@ -3385,8 +3389,9 @@
       "dependencies": [
         "npm:@astrojs/starlight-tailwind@5.0.0",
         "npm:@astrojs/starlight@0.38.1",
-        "npm:@astrojs/vercel@^10.0.1",
+        "npm:@astrojs/vercel@10.0.1",
         "npm:@tailwindcss/vite@4.2.1",
+        "npm:@vercel/analytics@^2.0.1",
         "npm:astro@6.0.1",
         "npm:sharp@0.34.2",
         "npm:tailwindcss@4.2.1"
