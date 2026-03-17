@@ -10,8 +10,8 @@ export default defineConfig({
     starlight({
       locales: {
         root: {
-          label: 'español',
-          lang: 'es',
+          label: "español",
+          lang: "es",
         },
         en: {
           label: "english",
@@ -27,8 +27,13 @@ export default defineConfig({
           href: "https://github.com/zkjon/denosaurios",
         },
       ],
-      sidebar: [],
-      customCss: ["@/styles/global.css",],
+      sidebar: [
+        {
+          label: "introducción",
+          items: [{ label: "sobre mi", link: "/sobre-mi/" }],
+        },
+      ],
+      customCss: ["@/styles/global.css"],
       logo: {
         light: "@/assets/icons/light.svg",
         dark: "@/assets/icons/dark.svg",
@@ -40,6 +45,6 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   devToolbar: {
-      enabled: false,
+    enabled: false,
   },
 });
