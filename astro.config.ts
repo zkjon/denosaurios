@@ -34,7 +34,10 @@ export default defineConfig({
         },
         { 
           label: "tierra",
-          items: [{ label: "origen", link: "/tierra/origen/" }],
+          items: [
+            { label: "origen", link: "/tierra/origen/" },
+            { label: "formación", link: "/tierra/formacion/" }
+          ],
         }
       ],
       customCss: ["@/styles/global.css"],
