@@ -8,15 +8,17 @@ export default defineConfig({
   site: "https://denosaurios.com",
   integrations: [
     starlight({
-      defaultLocale: "es",
       locales: {
-        es: {
-          label: "español",
+        root: {
+          label: 'español',
+          lang: 'es',
         },
         en: {
           label: "english",
+          lang: "en",
         },
       },
+      defaultLocale: "root",
       title: "denosaurios",
       social: [
         {
