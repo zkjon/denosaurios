@@ -9,6 +9,9 @@ export default defineConfig({
   site: "https://denosaurios.com",
   integrations: [
     starlight({
+      components: {
+        Head: './src/components/Head.astro',
+      },
       locales: {
         root: {
           label: "español",
