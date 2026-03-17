@@ -1,49 +1,76 @@
-# Starlight Starter Kit: Basics
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+# denosaurios
 
+un pequeño proyecto nacido de mi fascinación por los dinosaurios y la historia de la tierra.
+
+---
+
+## 🦕 sobre el proyecto
+
+denosaurios es una web documental que recorre la historia de la tierra:
+
+- desde su origen  
+- pasando por la formación del planeta  
+- hasta la aparición y evolución de los dinosaurios  
+
+el objetivo no es listar especies, sino contar una historia.
+
+---
+
+## ⚙️ stack
+
+- astro  
+- starlight  
+- tailwind  
+- deno (como runtime)
+
+---
+
+## 🚀 desarrollo
+
+instalar dependencias:
+
+```bash
+deno install
+````
+
+ejecutar en desarrollo:
+
+```bash
+deno task dev
 ```
-deno create astro@latest -- --template starlight
+
+build de producción:
+
+```bash
+deno task build
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+preview:
 
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+```bash
+deno task preview
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+---
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+## 🧠 filosofía
 
-Static assets, like favicons, can be placed in the `public/` directory.
+este proyecto no busca ser una enciclopedia.
 
-## 🧞 Commands
+busca transmitir la magnitud del tiempo, la evolución del planeta y la historia de la vida de una forma clara, visual y accesible.
 
-All commands are run from the root of the project, from a terminal:
+---
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `deno install`             | Installs dependencies                            |
-| `deno dev`             | Starts local dev server at `localhost:4321`      |
-| `deno build`           | Build your production site to `./dist/`          |
-| `deno preview`         | Preview your build locally, before deploying     |
-| `deno astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `deno astro -- --help` | Get help using the Astro CLI                     |
+## 📌 notas
 
-## 👀 Want to learn more?
+* todo el contenido está escrito en minúsculas como parte de la identidad del proyecto
+* algunas imágenes son representaciones artísticas o generadas por ia
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+---
+
+## 📄 licencia
+
+el código del proyecto está bajo [licencia mit](LICENSE).
+
+el contenido (textos e imágenes) pertenece al autor y no puede ser reutilizado sin permiso.
