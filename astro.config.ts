@@ -44,7 +44,7 @@ export default defineConfig({
             { label: "primeros océanos", link: "/tierra/primeros-oceanos/" },
             { label: "primeras moléculas", link: "/tierra/primeras-moleculas/" },
             { label: "primeras formas de vida", link: "/tierra/primeras-formas-de-vida/" },
-            { label: "la gran oxigenación", link: "/tierra/gran-oxigenacion/" }
+            { label: "la gran oxidación", link: "/tierra/gran-oxidacion/" }
           ],
         }
       ],
