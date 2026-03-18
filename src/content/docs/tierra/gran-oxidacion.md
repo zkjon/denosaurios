@@ -1,5 +1,5 @@
 ---
-title: la gran exodacion
+title: la gran oxidación
 description: cómo la vida transformó la atmósfera de la tierra
 ---
 
