@@ -51,8 +51,8 @@ export default defineConfig({
           label: "la evolución de la vida",
           items: [
             { label: "precámbrico", link: "/eras/precambriano/" },
-            { label: "la diversidad de especies", link: "/vida/diversidad-especies/" },
-            { label: "la adaptación", link: "/vida/adaptacion/" }
+            { label: "paleozoico", link: "/eras/paleozoico/" },
+            
           ]
         }
       ],
