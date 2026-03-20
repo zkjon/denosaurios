@@ -37,7 +37,7 @@ export default defineConfig({
           items: [{ label: "sobre mi", link: "/intro/sobre-mi/" }],
         },
         { 
-          label: "tierra",
+          label: "la tierra primitiva",
           items: [
             { label: "origen", link: "/tierra/origen/" },
             { label: "formación", link: "/tierra/formacion/" },
