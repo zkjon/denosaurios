@@ -46,6 +46,14 @@ export default defineConfig({
             { label: "primeras formas de vida", link: "/tierra/primeras-formas-de-vida/" },
             { label: "la gran oxidación", link: "/tierra/gran-oxidacion/" }
           ],
+        },
+          {
+          label: "la evolución de la vida",
+          items: [
+            { label: "precámbrico", link: "/eras/precambriano/" },
+            { label: "la diversidad de especies", link: "/vida/diversidad-especies/" },
+            { label: "la adaptación", link: "/vida/adaptacion/" }
+          ]
         }
       ],
       customCss: ["@/styles/global.css"],
