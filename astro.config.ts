@@ -67,6 +67,13 @@ export default defineConfig({
             { label: "triásico", link: "/eras/mesozoico/triasico/" },
             { label: "jurásico", link: "/eras/mesozoico/jurasico/" },
             { label: "cretácico", link: "/eras/mesozoico/cretacico/" },
+          ],
+        },
+        {
+          label: "la gran extinción",
+          items: [
+            { label: "el comienzo del fin", link: "/extincion/" },
+            
             
           ],
         },
