@@ -66,6 +66,7 @@ export default defineConfig({
             { label: "introducción", link: "/eras/mesozoico/" },
             { label: "triásico", link: "/eras/mesozoico/triasico/" },
             { label: "jurásico", link: "/eras/mesozoico/jurasico/" },
+            { label: "cretácico", link: "/eras/mesozoico/cretacico/" },
             
           ],
         },
