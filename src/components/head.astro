@@ -13,13 +13,8 @@ const url = Astro.url.href;
 {head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
 
 <meta property="og:image" content={ogImage} />
-<meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
-<meta property="og:url" content={url} />
-<meta property="og:type" content="website" />
 
 <meta name="twitter:image" content={ogImage} />
-<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 
