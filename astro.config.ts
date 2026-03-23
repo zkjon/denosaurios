@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import sitemap from '@astrojs/sitemap';
 import tailwindcss from "@tailwindcss/vite";
 import vercel from "@astrojs/vercel";
 
@@ -8,6 +9,7 @@ import vercel from "@astrojs/vercel";
 export default defineConfig({
   site: "https://denosaurios.com",
   integrations: [
+    sitemap(),
     starlight({
       routeMiddleware: "./src/router-data.ts",
       components: {

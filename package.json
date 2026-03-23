@@ -10,9 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.1",
     "@astrojs/starlight": "0.38.1",
     "@astrojs/starlight-tailwind": "5.0.0",
-    "@astrojs/vercel": "10.0.1",
+    "@astrojs/vercel": "^10.0.2",
     "@tailwindcss/vite": "4.2.1",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
