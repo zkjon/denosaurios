@@ -3,19 +3,29 @@ import Analytics from "@vercel/analytics/astro";
 import SpeedInsights from "@vercel/speed-insights/astro";
 
 const { head } = Astro.locals.starlightRoute;
-const ogImage = Astro.site + "og-image.png";
+const ogImage = "/og-image.png";
 const title = "denosaurios";
 const description =
   "un proyecto nacido de mi facinación por los dinosaurios y la historia de la tierra.";
 ---
 
-{head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
-
-<meta property="og:image" content={ogImage} />
-
-<meta name="twitter:image" content={ogImage} />
-<meta name="twitter:title" content={title} />
-<meta name="twitter:description" content={description} />
+{
+  head.map(({ tag: Tag, attrs, content }) => (
+    <Tag {...attrs} set:html={content} />
+  ))
+}
+{
+  head.push({
+    tag: "meta",
+    attrs: { property: "og:image", content: ogImage },
+  })
+}
+{
+  head.push({
+    tag: "meta",
+    attrs: { name: "twitter:image", content: ogImage },
+  })
+}
 
 <Analytics />
 <SpeedInsights />
