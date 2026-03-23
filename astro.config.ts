@@ -10,7 +10,7 @@ export default defineConfig({
   integrations: [
     starlight({
       components: {
-        Head: "./src/components/analiticas.astro",
+        Head: "./src/components/head.astro",
       },
       locales: {
         root: {
