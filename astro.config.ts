@@ -75,8 +75,7 @@ export default defineConfig({
             { label: "el comienzo del fin", link: "/extincion/" },
             { label: "el impacto", link: "/extincion/impacto/" },
             { label: "consecuencias", link: "/extincion/consecuencias/" },
-            
-            
+            { label: "los supervivientes", link: "/extincion/supervivientes/" },
           ],
         },
       ],
