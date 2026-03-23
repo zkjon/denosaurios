@@ -9,8 +9,9 @@ export default defineConfig({
   site: "https://denosaurios.com",
   integrations: [
     starlight({
+      routeMiddleware: "./src/router-data.ts",
       components: {
-        Head: "./src/components/head.astro",
+        Head: "./src/components/analiticas.astro",
       },
       locales: {
         root: {
