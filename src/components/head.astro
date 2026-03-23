@@ -7,7 +7,6 @@ const ogImage = Astro.site + "og-image.png";
 const title = "denosaurios";
 const description =
   "un proyecto nacido de mi facinación por los dinosaurios y la historia de la tierra.";
-const url = Astro.url.href;
 ---
 
 {head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
