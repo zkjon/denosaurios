@@ -74,6 +74,7 @@ export default defineConfig({
           items: [
             { label: "el comienzo del fin", link: "/extincion/" },
             { label: "el impacto", link: "/extincion/impacto/" },
+            { label: "consecuencias", link: "/extincion/consecuencias/" },
             
             
           ],
