@@ -1,7 +1,5 @@
 // src/routeData.ts
 import { defineRouteMiddleware } from '@astrojs/starlight/route-data'
-import Analytics from "@vercel/analytics/astro";
-import SpeedInsights from "@vercel/speed-insights/astro";
 
 export const onRequest = defineRouteMiddleware((context) => {
   // Get the URL of the generated image for the current page using its ID and
