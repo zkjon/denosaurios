@@ -78,6 +78,15 @@ export default defineConfig({
             { label: "los supervivientes", link: "/extincion/supervivientes/" },
           ],
         },
+        {
+          label: "cenozoico",
+          items: [
+            { label: "introducción", link: "/cenozoico/" },
+            { label: "paleógeno", link: "/cenozoico/paleogeno/" },
+            { label: "neógeno", link: "/cenozoico/neogeno/" },
+            { label: "cuaternario", link: "/cenozoico/cuaternario/" },
+          ],
+        },
       ],
       customCss: ["@/styles/global.css"],
       logo: {
