@@ -15,7 +15,7 @@ pero antes de todo eso, fui un niño rodeado de dinosaurios.
 
 <div class="flex flex-col items-center gap-4 my-6">
   <img 
-    src="/images/jon-dinosaurio.jpg" 
+    src="../../../assets/me.avif" 
     alt="jon de pequeño con un pijama de dinosaurio" 
     class="rounded-2xl max-w-xs w-full"
   />

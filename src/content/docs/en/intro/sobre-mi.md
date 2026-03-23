@@ -15,7 +15,7 @@ but before all that, i was a child surrounded by dinosaurs.
 
 <div class="flex flex-col items-center gap-4 my-6">
   <img 
-    src="/images/jon-dinosaurio.jpg" 
+    src="../../../../assets/me.avif" 
     alt="little jon in dinosaur pajamas" 
     class="rounded-2xl max-w-xs w-full"
   />
