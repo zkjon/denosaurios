@@ -2,6 +2,18 @@
 import dinosaur from "@/assets/denos/dinosaur.svg";
 import diplodocus from "@/assets/denos/diplodocus.svg";
 import triceratops from "@/assets/denos/triceratops.svg";
+
+interface Props {
+  description?: string;
+  cta?: string;
+  ctaLink?: string;
+}
+
+const { 
+  description = "un pequeño proyecto nacido de mi fascinación por los dinosaurios y la historia de la tierra.",
+  cta = "explorar",
+  ctaLink = "/intro/sobre-mi/"
+} = Astro.props;
 ---
 
 <div class="landing">
@@ -11,10 +23,9 @@ import triceratops from "@/assets/denos/triceratops.svg";
     <img src={triceratops.src} alt="trice" width={180} height={180} />
   </div>
   <h2 class="landing-description">
-    un pequeño proyecto nacido de mi fascinación por los dinosaurios y la
-    historia de la tierra.
+    {description}
   </h2>
-  <a href="/intro/sobre-mi/" class="landing-cta">explorar</a>
+  <a href={ctaLink} class="landing-cta">{cta}</a>
 </div>
 
 <style scoped>
