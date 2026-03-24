@@ -13,15 +13,14 @@ but before all that, i was a child surrounded by dinosaurs.
 
 ## the beginning
 
-<div class="flex flex-col items-center gap-4 my-6">
-  <img 
-    src="../../../../assets/me.avif" 
-    alt="little jon in dinosaur pajamas" 
-    class="rounded-2xl max-w-xs w-full"
-  />
-  <p class="text-sm opacity-70 text-center">
-    yes, that's me
+<div class="my-8 border-l-4 border-l-green-400/20 pl-4">
+
+![jon](../../../../assets/me.avif)
+
+  <p class="mt-2 text-sm text-black/60 dark:text-white/60 italic">
+    > yes, that's me
   </p>
+
 </div>
 
 i don't remember exactly when it started.

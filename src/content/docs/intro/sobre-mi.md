@@ -13,15 +13,14 @@ pero antes de todo eso, fui un niño rodeado de dinosaurios.
 
 ## el principio
 
-<div class="flex flex-col items-center gap-4 my-6">
-  <img 
-    src="../../../assets/me.avif" 
-    alt="jon de pequeño con un pijama de dinosaurio" 
-    class="rounded-2xl max-w-xs w-full"
-  />
-  <p class="text-sm opacity-70 text-center">
-    sí, ese soy yo
+<div class="my-8 border-l-4 border-l-green-400/20 pl-4">
+
+![jon de pequeño](../../../assets/me.avif)
+
+  <p class="mt-2 text-sm text-black/60 dark:text-white/60 italic">
+    > si, ese soy yo
   </p>
+
 </div>
 
 no recuerdo exactamente cuándo empezó.
